@@ -33,10 +33,10 @@ public class NguyenToTest {
 //        public void beforeEach() {
 //        System.out.println("Before Each");
 //    }
-//    @AfterAll
-//    public static void AfterAll() {
-//        System.out.println("100");
-//    }
+    @AfterAll
+    public static void AfterAll() {
+        System.out.println("100");
+    }
     @Test
     public void TestOddNumber() {
         boolean actual = NguyenTo.isNguyenTo(5);
